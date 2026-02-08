@@ -56,7 +56,7 @@ nav a {
   border-radius: 49px;
 }
 nav a::before {
-  content: '';
+  content: "";
   width: 0%;
   height: 2px;
   background: #000;
@@ -67,4 +67,30 @@ nav a::before {
 }
 nav a:hover::before {
   width: 100%;
+}
+.hero img {
+  width: 531px;
+}
+.hero {
+  padding: 52px 0px;
+}
+.hero h1 {
+  font-size: 64px;
+}
+button {
+  border: none;
+}
+.btn1 {
+  background: var(--w);
+  padding: 10px 20px;
+}
+.hero span,
+.hero p {
+  color: var(--g);
+}
+.hero-left{
+    width: 700px;
+}
+.p{
+    padding: 20px 0px;
 }
