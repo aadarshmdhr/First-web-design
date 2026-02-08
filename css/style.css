@@ -31,7 +31,7 @@ h6 {
 }
 .btn {
   background: var(--o);
-  color: --w;
+  color: var(--w);
 }
 .flex {
   display: flex;
@@ -53,4 +53,17 @@ nav a {
 .btn {
   padding: 10px 20px;
   border-radius: 49px;
+}
+nav a::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.9s;
+}
+nav a:hover::before {
+  width: 10%;
 }
