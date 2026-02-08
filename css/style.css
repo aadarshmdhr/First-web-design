@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend:wght@100..900&display=swap");
+:root {
+  --o: #f0742c;
+  --g: #9c999a;
+  --p: #ffe3c6;
+  --w: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Figtree", sans-serif;
+  background: #fffbf2;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lexend", sans-serif;
+}
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+.hero {
+  padding: 11px 0px;
+}
+.btn {
+  background: var(--o);
+  color: --w;
+}
+.flex {
+  display: flex;
+}
+.jc {
+  justify-content: space-between;
+}
+.ai {
+  align-items: center;
+}
+.gap {
+  gap: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--g);
+  padding: 10px;
+}
+.btn {
+  padding: 10px 20px;
+  border-radius: 49px;
+}
