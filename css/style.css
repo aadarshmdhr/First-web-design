@@ -49,6 +49,7 @@ nav a {
   text-decoration: none;
   color: var(--g);
   padding: 10px;
+  position: relative;
 }
 .btn {
   padding: 10px 20px;
@@ -65,5 +66,5 @@ nav a::before {
   transition: 0.9s;
 }
 nav a:hover::before {
-  width: 10%;
+  width: 100%;
 }
